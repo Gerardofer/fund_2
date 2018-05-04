@@ -23,6 +23,7 @@
   "homepage": "https://github.com/Gerardofer/fund_2#readme",
   "dependencies": {
     "express": "^4.16.3",
+    "mongoose": "^5.0.17",
     "nodemon": "^1.17.3",
     "npm": "^6.0.0",
     "passport": "^0.4.0",
