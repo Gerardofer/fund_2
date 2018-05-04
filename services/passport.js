@@ -26,6 +26,7 @@ passport.use(
       User.findOne({ googleId: profile.id }).then(existingUser => {
         if (existingUser) {
           console.log("user already in the database");
+          console.log(existingUser);
           done(null, existingUser);
         }
         new User({ googleId: profile.id }).save().then(user => {
